@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>paper tape llc</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <div class="first">
+    <img src="images/logo-cropped.png" alt="Paper Tape Logo" class ="main-logo">
+    <h1>paper tape llc</h1>
+    </div>
+    <div class="info">
+        <a href= "#" onclick="appsOnClick()"><p>apps</p></a>
+        <p class="apps"><em>coming soon</em><br><br></p>
+        <a href="#" onclick="aboutOnClick()"><p>about</p></a>
+        <p class="about">mobile app development company <br><br>committed creating to simple, useful, and responsible technology.<br><br></p>
+        <a href="#" onclick="contactOnClick()"><p>contact</p></a>
+        <span class="contact">
+           <!-- <p>email: papertapellc@pm.me</p> -->
+            <p>instagram:<a class="insta" href="https://www.instagram.com/papertapeco/" target="_blank">@papertapeco</a></p></span>
+    </div>
+    <script>
+    function appsOnClick(){
+        var app = document.getElementsByClassName("apps")[0];
+        app.style.fontSize = "16px";
+        app.style.visibility = "visible";
+    }
+    function aboutOnClick(){
+        var about = document.getElementsByClassName("about")[0];
+        about.style.fontSize = "16px";
+        about.style.visibility = "visible";
+        }
+        function contactOnClick(){
+        var contact = document.getElementsByClassName("contact")[0];
+        contact.style.fontSize = "16px";
+        contact.style.visibility = "visible";
+        }
+    </script>
+</body>
+</html>

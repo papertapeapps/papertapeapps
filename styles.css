@@ -1,0 +1,44 @@
+body{
+background-color:#FFFFFF;
+    font-family:"Arial";
+    text-align:center;
+}
+h1{
+    font-weight:normal;
+}
+.main-logo{
+    height:85px;
+}
+.first{
+    padding:50px;
+    padding-top:100px;
+}
+a{
+    color:black;
+    font-size:19px;
+}
+a:active{
+    color:slategray;
+}
+.apps{
+    visibility:hidden;
+    font-size:0px;
+}
+.about{
+    visibility:hidden;
+    font-size:0px;
+}
+.contact{
+    visibility:hidden;
+    font-size:0px;
+    padding-bottom:150px;
+}
+.info{
+    padding-bottom:100px;
+}
+.insta{
+    text-decoration:none;
+    color:midnightblue;
+    padding-top:20px;
+    font-size:16px;
+}
