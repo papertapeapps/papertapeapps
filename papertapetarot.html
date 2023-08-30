@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>paper tape llc</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <div class="first-tarot">
+    <img src="images/paper-tape-tarot-logo.png" alt="Paper Tape Tarot Logo" class ="tarot-logo">
+    <h1>paper tape tarot</h1>
+        <h3 class="subheader"> for iOS</h3>
+    </div>
+    <div class="info-tarot">
+        <a href="#" onclick="aboutOnClick()"><p>about</p></a>
+            <p class="about-tarot"><em>create your own tarot guidebook</em><br><br><br>
+            <b>features:</b><br><br>
+            includes 78 tarot card deck with images<br><br>
+            fully customizable: upload new card images, change card titles, <br>write card descriptions, and take notes
+            <br><br>
+            space to save and organize tarot related images, <br>notes, spreads, etc.
+            <br><br>
+            no ads or subscription fees
+        </p>
+        <a href="tarot-privacy-policy.html" target="_blank"><p>privacy policy</p></a>
+        <p></p>
+        <a href="tarot-terms.html" target="_blank"><p>terms</p></a>
+         <p></p>
+    </div>
+    </body>
+    <script>
+        function aboutOnClick(){
+        var about = document.getElementsByClassName("about-tarot")[0];
+        about.style.fontSize = "16px";
+        about.style.visibility = "visible";
+        var about2 = document.getElementsByClassName("about-tarot")[1];
+        about2.style.fontSize = "16px";
+        about2.style.visibility = "visible";
+        }
+        </script>
+</html>
